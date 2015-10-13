@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
 /*!
  * bootswatch v3.3.5
  * Homepage: http://bootswatch.com
@@ -1407,10 +1407,10 @@ html {
 
 /* line 1088, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 body {
-  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #2c3e50;
   background-color: #ffffff; }
 
 /* line 1095, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -1424,13 +1424,13 @@ textarea {
 
 /* line 1103, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a {
-  color: #dd4814;
+  color: #18bc9c;
   text-decoration: none; }
 
 /* line 1107, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a:hover,
 a:focus {
-  color: #97310e;
+  color: #18bc9c;
   text-decoration: underline; }
 
 /* line 1112, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -1466,7 +1466,7 @@ img {
   padding: 4px;
   line-height: 1.42857143;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #ecf0f1;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1481,10 +1481,10 @@ img {
 
 /* line 1151, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 21px;
+  margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #eeeeee; }
+  border-top: 1px solid #ecf0f1; }
 
 /* line 1157, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .sr-only {
@@ -1524,8 +1524,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   line-height: 1.1;
   color: inherit; }
 
@@ -1556,7 +1556,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #aea79f; }
+  color: #b4bcc2; }
 
 /* line 1224, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h1,
@@ -1565,8 +1565,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-top: 21px;
+  margin-bottom: 10.5px; }
 
 /* line 1233, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h1 small,
@@ -1590,8 +1590,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-top: 10.5px;
+  margin-bottom: 10.5px; }
 
 /* line 1256, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h4 small,
@@ -1611,57 +1611,57 @@ h6 .small,
 /* line 1270, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h1,
 .h1 {
-  font-size: 36px; }
+  font-size: 39px; }
 
 /* line 1274, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h2,
 .h2 {
-  font-size: 30px; }
+  font-size: 32px; }
 
 /* line 1278, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h3,
 .h3 {
-  font-size: 24px; }
+  font-size: 26px; }
 
 /* line 1282, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h4,
 .h4 {
-  font-size: 18px; }
+  font-size: 19px; }
 
 /* line 1286, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h5,
 .h5 {
-  font-size: 14px; }
+  font-size: 15px; }
 
 /* line 1290, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 h6,
 .h6 {
-  font-size: 12px; }
+  font-size: 13px; }
 
 /* line 1294, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 p {
-  margin: 0 0 10px; }
+  margin: 0 0 10.5px; }
 
 /* line 1297, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .lead {
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 21px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 1.4; }
 
 @media (min-width: 768px) {
   /* line 1304, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .lead {
-    font-size: 21px; } }
+    font-size: 22.5px; } }
 /* line 1308, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 small,
 .small {
-  font-size: 85%; }
+  font-size: 86%; }
 
 /* line 1312, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 mark,
 .mark {
-  background-color: #fcf8e3;
+  background-color: #f39c12;
   padding: .2em; }
 
 /* line 1317, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -1698,110 +1698,110 @@ mark,
 
 /* line 1341, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .text-muted {
-  color: #aea79f; }
+  color: #b4bcc2; }
 
 /* line 1344, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .text-primary {
-  color: #dd4814; }
+  color: #2c3e50; }
 
 /* line 1347, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #ae3910; }
+  color: #1a242f; }
 
 /* line 1351, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .text-success {
-  color: #468847; }
+  color: #ffffff; }
 
 /* line 1354, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.text-success:hover,
 a.text-success:focus {
-  color: #356635; }
+  color: #e6e6e6; }
 
 /* line 1358, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .text-info {
-  color: #3a87ad; }
+  color: #ffffff; }
 
 /* line 1361, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.text-info:hover,
 a.text-info:focus {
-  color: #2d6987; }
+  color: #e6e6e6; }
 
 /* line 1365, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .text-warning {
-  color: #c09853; }
+  color: #ffffff; }
 
 /* line 1368, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #a47e3c; }
+  color: #e6e6e6; }
 
 /* line 1372, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .text-danger {
-  color: #b94a48; }
+  color: #ffffff; }
 
 /* line 1375, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #953b39; }
+  color: #e6e6e6; }
 
 /* line 1379, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .bg-primary {
   color: #fff;
-  background-color: #dd4814; }
+  background-color: #2c3e50; }
 
 /* line 1383, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #ae3910; }
+  background-color: #1a242f; }
 
 /* line 1387, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .bg-success {
-  background-color: #dff0d8; }
+  background-color: #18bc9c; }
 
 /* line 1390, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.bg-success:hover,
 a.bg-success:focus {
-  background-color: #c1e2b3; }
+  background-color: #128f76; }
 
 /* line 1394, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .bg-info {
-  background-color: #d9edf7; }
+  background-color: #3498db; }
 
 /* line 1397, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.bg-info:hover,
 a.bg-info:focus {
-  background-color: #afd9ee; }
+  background-color: #217dbb; }
 
 /* line 1401, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .bg-warning {
-  background-color: #fcf8e3; }
+  background-color: #f39c12; }
 
 /* line 1404, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.bg-warning:hover,
 a.bg-warning:focus {
-  background-color: #f7ecb5; }
+  background-color: #c87f0a; }
 
 /* line 1408, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .bg-danger {
-  background-color: #f2dede; }
+  background-color: #e74c3c; }
 
 /* line 1411, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.bg-danger:hover,
 a.bg-danger:focus {
-  background-color: #e4b9b9; }
+  background-color: #d62c1a; }
 
 /* line 1415, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee; }
+  padding-bottom: 9.5px;
+  margin: 42px 0 21px;
+  border-bottom: 1px solid transparent; }
 
 /* line 1420, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px; }
+  margin-bottom: 10.5px; }
 
 /* line 1425, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 ul ul,
@@ -1830,7 +1830,7 @@ ol ol {
 /* line 1445, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 dl {
   margin-top: 0;
-  margin-bottom: 20px; }
+  margin-bottom: 21px; }
 
 /* line 1449, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 dt,
@@ -1863,7 +1863,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #aea79f; }
+  border-bottom: 1px dotted #b4bcc2; }
 
 /* line 1478, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .initialism {
@@ -1872,10 +1872,10 @@ abbr[data-original-title] {
 
 /* line 1482, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
-  font-size: 17.5px;
-  border-left: 5px solid #eeeeee; }
+  padding: 10.5px 21px;
+  margin: 0 0 21px;
+  font-size: 18.75px;
+  border-left: 5px solid #ecf0f1; }
 
 /* line 1488, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 blockquote p:last-child,
@@ -1890,7 +1890,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
-  color: #aea79f; }
+  color: #b4bcc2; }
 
 /* line 1501, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 blockquote footer:before,
@@ -1903,7 +1903,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #ecf0f1;
   border-left: 0;
   text-align: right; }
 
@@ -1927,7 +1927,7 @@ blockquote.pull-right .small:after {
 
 /* line 1530, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 address {
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   font-style: normal;
   line-height: 1.42857143; }
 
@@ -1967,14 +1967,14 @@ kbd kbd {
 /* line 1564, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 pre {
   display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
+  padding: 10px;
+  margin: 0 0 10.5px;
+  font-size: 14px;
   line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
-  background-color: #f5f5f5;
+  color: #7b8a8b;
+  background-color: #ecf0f1;
   border: 1px solid #cccccc;
   border-radius: 4px; }
 
@@ -2870,7 +2870,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #aea79f;
+  color: #b4bcc2;
   text-align: left; }
 
 /* line 2265, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -2881,7 +2881,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px; }
+  margin-bottom: 21px; }
 
 /* line 2273, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table > thead > tr > th,
@@ -2893,12 +2893,12 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #dddddd; }
+  border-top: 1px solid #ecf0f1; }
 
 /* line 2284, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dddddd; }
+  border-bottom: 2px solid #ecf0f1; }
 
 /* line 2288, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table > caption + thead > tr:first-child > th,
@@ -2911,7 +2911,7 @@ th {
 
 /* line 2296, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table > tbody + tbody {
-  border-top: 2px solid #dddddd; }
+  border-top: 2px solid #ecf0f1; }
 
 /* line 2299, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table .table {
@@ -2928,7 +2928,7 @@ th {
 
 /* line 2310, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-bordered {
-  border: 1px solid #dddddd; }
+  border: 1px solid #ecf0f1; }
 
 /* line 2313, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-bordered > thead > tr > th,
@@ -2937,7 +2937,7 @@ th {
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #dddddd; }
+  border: 1px solid #ecf0f1; }
 
 /* line 2321, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-bordered > thead > tr > th,
@@ -2950,7 +2950,7 @@ th {
 
 /* line 2328, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-hover > tbody > tr:hover {
-  background-color: #f5f5f5; }
+  background-color: #ecf0f1; }
 
 /* line 2331, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 table col[class*="col-"] {
@@ -2978,7 +2978,7 @@ table th[class*="col-"] {
 .table > thead > tr.active > th,
 .table > tbody > tr.active > th,
 .table > tfoot > tr.active > th {
-  background-color: #f5f5f5; }
+  background-color: #ecf0f1; }
 
 /* line 2356, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-hover > tbody > tr > td.active:hover,
@@ -2986,7 +2986,7 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.active:hover > td,
 .table-hover > tbody > tr:hover > .active,
 .table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8; }
+  background-color: #dde4e6; }
 
 /* line 2363, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table > thead > tr > td.success,
@@ -3001,7 +3001,7 @@ table th[class*="col-"] {
 .table > thead > tr.success > th,
 .table > tbody > tr.success > th,
 .table > tfoot > tr.success > th {
-  background-color: #dff0d8; }
+  background-color: #18bc9c; }
 
 /* line 2377, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-hover > tbody > tr > td.success:hover,
@@ -3009,7 +3009,7 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.success:hover > td,
 .table-hover > tbody > tr:hover > .success,
 .table-hover > tbody > tr.success:hover > th {
-  background-color: #d0e9c6; }
+  background-color: #15a589; }
 
 /* line 2384, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table > thead > tr > td.info,
@@ -3024,7 +3024,7 @@ table th[class*="col-"] {
 .table > thead > tr.info > th,
 .table > tbody > tr.info > th,
 .table > tfoot > tr.info > th {
-  background-color: #d9edf7; }
+  background-color: #3498db; }
 
 /* line 2398, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-hover > tbody > tr > td.info:hover,
@@ -3032,7 +3032,7 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.info:hover > td,
 .table-hover > tbody > tr:hover > .info,
 .table-hover > tbody > tr.info:hover > th {
-  background-color: #c4e3f3; }
+  background-color: #258cd1; }
 
 /* line 2405, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table > thead > tr > td.warning,
@@ -3047,7 +3047,7 @@ table th[class*="col-"] {
 .table > thead > tr.warning > th,
 .table > tbody > tr.warning > th,
 .table > tfoot > tr.warning > th {
-  background-color: #fcf8e3; }
+  background-color: #f39c12; }
 
 /* line 2419, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-hover > tbody > tr > td.warning:hover,
@@ -3055,7 +3055,7 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.warning:hover > td,
 .table-hover > tbody > tr:hover > .warning,
 .table-hover > tbody > tr.warning:hover > th {
-  background-color: #faf2cc; }
+  background-color: #e08e0b; }
 
 /* line 2426, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table > thead > tr > td.danger,
@@ -3070,7 +3070,7 @@ table th[class*="col-"] {
 .table > thead > tr.danger > th,
 .table > tbody > tr.danger > th,
 .table > tfoot > tr.danger > th {
-  background-color: #f2dede; }
+  background-color: #e74c3c; }
 
 /* line 2440, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-hover > tbody > tr > td.danger:hover,
@@ -3078,7 +3078,7 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.danger:hover > td,
 .table-hover > tbody > tr:hover > .danger,
 .table-hover > tbody > tr.danger:hover > th {
-  background-color: #ebcccc; }
+  background-color: #e43725; }
 
 /* line 2447, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .table-responsive {
@@ -3089,10 +3089,10 @@ table th[class*="col-"] {
   /* line 2452, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .table-responsive {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 15.75px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #dddddd; }
+    border: 1px solid #ecf0f1; }
 
   /* line 2459, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .table-responsive > .table {
@@ -3147,12 +3147,12 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 20px;
-  font-size: 21px;
+  margin-bottom: 21px;
+  font-size: 22.5px;
   line-height: inherit;
-  color: #333333;
+  color: #2c3e50;
   border: 0;
-  border-bottom: 1px solid #e5e5e5; }
+  border-bottom: 1px solid transparent; }
 
 /* line 2513, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 label {
@@ -3199,23 +3199,23 @@ input[type="checkbox"]:focus {
 /* line 2548, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 output {
   display: block;
-  padding-top: 9px;
-  font-size: 14px;
+  padding-top: 11px;
+  font-size: 15px;
   line-height: 1.42857143;
-  color: #333333; }
+  color: #2c3e50; }
 
 /* line 2555, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control {
   display: block;
   width: 100%;
-  height: 38px;
-  padding: 8px 12px;
-  font-size: 14px;
+  height: 45px;
+  padding: 10px 15px;
+  font-size: 15px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #2c3e50;
   background-color: #ffffff;
   background-image: none;
-  border: 1px solid #cccccc;
+  border: 1px solid #dce4ec;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3225,29 +3225,29 @@ output {
 
 /* line 2573, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #2c3e50;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44, 62, 80, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44, 62, 80, 0.6); }
 
 /* line 2579, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control::-moz-placeholder {
-  color: #aea79f;
+  color: #acb6c0;
   opacity: 1; }
 
 /* line 2583, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control:-ms-input-placeholder {
-  color: #aea79f; }
+  color: #acb6c0; }
 
 /* line 2586, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control::-webkit-input-placeholder {
-  color: #aea79f; }
+  color: #acb6c0; }
 
 /* line 2589, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
-  background-color: #eeeeee;
+  background-color: #ecf0f1;
   opacity: 1; }
 
 /* line 2595, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -3269,7 +3269,7 @@ input[type="search"] {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 38px; }
+    line-height: 45px; }
 
   /* line 2612, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   input[type="date"].input-sm,
@@ -3280,7 +3280,7 @@ input[type="search"] {
   .input-group-sm input[type="time"],
   .input-group-sm input[type="datetime-local"],
   .input-group-sm input[type="month"] {
-    line-height: 30px; }
+    line-height: 35px; }
 
   /* line 2622, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   input[type="date"].input-lg,
@@ -3291,7 +3291,7 @@ input[type="search"] {
   .input-group-lg input[type="time"],
   .input-group-lg input[type="datetime-local"],
   .input-group-lg input[type="month"] {
-    line-height: 54px; } }
+    line-height: 66px; } }
 /* line 2633, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group {
   margin-bottom: 15px; }
@@ -3307,7 +3307,7 @@ input[type="search"] {
 /* line 2643, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .radio label,
 .checkbox label {
-  min-height: 20px;
+  min-height: 21px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: normal;
@@ -3369,10 +3369,10 @@ fieldset[disabled] .checkbox label {
 
 /* line 2698, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control-static {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   margin-bottom: 0;
-  min-height: 34px; }
+  min-height: 36px; }
 
 /* line 2704, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control-static.input-lg,
@@ -3382,16 +3382,16 @@ fieldset[disabled] .checkbox label {
 
 /* line 2709, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .input-sm {
-  height: 30px;
-  padding: 5px 10px;
-  font-size: 12px;
+  height: 35px;
+  padding: 6px 9px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
 /* line 2716, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 select.input-sm {
-  height: 30px;
-  line-height: 30px; }
+  height: 35px;
+  line-height: 35px; }
 
 /* line 2720, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 textarea.input-sm,
@@ -3400,16 +3400,16 @@ select[multiple].input-sm {
 
 /* line 2724, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group-sm .form-control {
-  height: 30px;
-  padding: 5px 10px;
-  font-size: 12px;
+  height: 35px;
+  padding: 6px 9px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
 /* line 2731, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group-sm select.form-control {
-  height: 30px;
-  line-height: 30px; }
+  height: 35px;
+  line-height: 35px; }
 
 /* line 2735, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group-sm textarea.form-control,
@@ -3418,24 +3418,24 @@ select[multiple].input-sm {
 
 /* line 2739, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group-sm .form-control-static {
-  height: 30px;
-  min-height: 32px;
-  padding: 6px 10px;
-  font-size: 12px;
+  height: 35px;
+  min-height: 34px;
+  padding: 7px 9px;
+  font-size: 13px;
   line-height: 1.5; }
 
 /* line 2746, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .input-lg {
-  height: 54px;
-  padding: 14px 16px;
-  font-size: 18px;
+  height: 66px;
+  padding: 18px 27px;
+  font-size: 19px;
   line-height: 1.3333333;
   border-radius: 6px; }
 
 /* line 2753, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 select.input-lg {
-  height: 54px;
-  line-height: 54px; }
+  height: 66px;
+  line-height: 66px; }
 
 /* line 2757, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 textarea.input-lg,
@@ -3444,16 +3444,16 @@ select[multiple].input-lg {
 
 /* line 2761, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group-lg .form-control {
-  height: 54px;
-  padding: 14px 16px;
-  font-size: 18px;
+  height: 66px;
+  padding: 18px 27px;
+  font-size: 19px;
   line-height: 1.3333333;
   border-radius: 6px; }
 
 /* line 2768, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group-lg select.form-control {
-  height: 54px;
-  line-height: 54px; }
+  height: 66px;
+  line-height: 66px; }
 
 /* line 2772, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group-lg textarea.form-control,
@@ -3462,10 +3462,10 @@ select[multiple].input-lg {
 
 /* line 2776, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-group-lg .form-control-static {
-  height: 54px;
-  min-height: 38px;
-  padding: 15px 16px;
-  font-size: 18px;
+  height: 66px;
+  min-height: 40px;
+  padding: 19px 27px;
+  font-size: 19px;
   line-height: 1.3333333; }
 
 /* line 2783, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -3474,7 +3474,7 @@ select[multiple].input-lg {
 
 /* line 2786, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-feedback .form-control {
-  padding-right: 47.5px; }
+  padding-right: 56.25px; }
 
 /* line 2789, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-control-feedback {
@@ -3483,9 +3483,9 @@ select[multiple].input-lg {
   right: 0;
   z-index: 2;
   display: block;
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
   text-align: center;
   pointer-events: none; }
 
@@ -3493,17 +3493,17 @@ select[multiple].input-lg {
 .input-lg + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
-  width: 54px;
-  height: 54px;
-  line-height: 54px; }
+  width: 66px;
+  height: 66px;
+  line-height: 66px; }
 
 /* line 2808, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .input-sm + .form-control-feedback,
 .input-group-sm + .form-control-feedback,
 .form-group-sm .form-control + .form-control-feedback {
-  width: 30px;
-  height: 30px;
-  line-height: 30px; }
+  width: 35px;
+  height: 35px;
+  line-height: 35px; }
 
 /* line 2815, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-success .help-block,
@@ -3516,29 +3516,29 @@ select[multiple].input-lg {
 .has-success.checkbox label,
 .has-success.radio-inline label,
 .has-success.checkbox-inline label {
-  color: #468847; }
+  color: #ffffff; }
 
 /* line 2827, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-success .form-control {
-  border-color: #468847;
+  border-color: #ffffff;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
 
 /* line 2832, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-success .form-control:focus {
-  border-color: #356635;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b; }
+  border-color: #e6e6e6;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff; }
 
 /* line 2837, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-success .input-group-addon {
-  color: #468847;
-  border-color: #468847;
-  background-color: #dff0d8; }
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #18bc9c; }
 
 /* line 2842, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-success .form-control-feedback {
-  color: #468847; }
+  color: #ffffff; }
 
 /* line 2845, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-warning .help-block,
@@ -3551,29 +3551,29 @@ select[multiple].input-lg {
 .has-warning.checkbox label,
 .has-warning.radio-inline label,
 .has-warning.checkbox-inline label {
-  color: #c09853; }
+  color: #ffffff; }
 
 /* line 2857, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-warning .form-control {
-  border-color: #c09853;
+  border-color: #ffffff;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
 
 /* line 2862, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-warning .form-control:focus {
-  border-color: #a47e3c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e; }
+  border-color: #e6e6e6;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff; }
 
 /* line 2867, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-warning .input-group-addon {
-  color: #c09853;
-  border-color: #c09853;
-  background-color: #fcf8e3; }
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #f39c12; }
 
 /* line 2872, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-warning .form-control-feedback {
-  color: #c09853; }
+  color: #ffffff; }
 
 /* line 2875, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-error .help-block,
@@ -3586,33 +3586,33 @@ select[multiple].input-lg {
 .has-error.checkbox label,
 .has-error.radio-inline label,
 .has-error.checkbox-inline label {
-  color: #b94a48; }
+  color: #ffffff; }
 
 /* line 2887, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-error .form-control {
-  border-color: #b94a48;
+  border-color: #ffffff;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
 
 /* line 2892, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-error .form-control:focus {
-  border-color: #953b39;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392; }
+  border-color: #e6e6e6;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff; }
 
 /* line 2897, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-error .input-group-addon {
-  color: #b94a48;
-  border-color: #b94a48;
-  background-color: #f2dede; }
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #e74c3c; }
 
 /* line 2902, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-error .form-control-feedback {
-  color: #b94a48; }
+  color: #ffffff; }
 
 /* line 2905, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-feedback label ~ .form-control-feedback {
-  top: 25px; }
+  top: 26px; }
 
 /* line 2908, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .has-feedback label.sr-only ~ .form-control-feedback {
@@ -3623,7 +3623,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373; }
+  color: #597ea2; }
 
 @media (min-width: 768px) {
   /* line 2918, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -3691,12 +3691,12 @@ select[multiple].input-lg {
 .form-horizontal .checkbox-inline {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 9px; }
+  padding-top: 11px; }
 
 /* line 2975, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 29px; }
+  min-height: 32px; }
 
 /* line 2979, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-horizontal .form-group {
@@ -3708,7 +3708,7 @@ select[multiple].input-lg {
   .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 0;
-    padding-top: 9px; } }
+    padding-top: 11px; } }
 /* line 2990, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .form-horizontal .has-feedback .form-control-feedback {
   right: 15px; }
@@ -3716,13 +3716,13 @@ select[multiple].input-lg {
 @media (min-width: 768px) {
   /* line 2994, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .form-horizontal .form-group-lg .control-label {
-    padding-top: 19.6666662px;
-    font-size: 18px; } }
+    padding-top: 24.9999994px;
+    font-size: 19px; } }
 @media (min-width: 768px) {
   /* line 3000, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .form-horizontal .form-group-sm .control-label {
-    padding-top: 6px;
-    font-size: 12px; } }
+    padding-top: 7px;
+    font-size: 13px; } }
 /* line 3005, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn {
   display: inline-block;
@@ -3736,8 +3736,8 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 8px 12px;
-  font-size: 14px;
+  padding: 10px 15px;
+  font-size: 15px;
   line-height: 1.42857143;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -3789,29 +3789,29 @@ fieldset[disabled] a.btn {
 /* line 3062, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-default {
   color: #ffffff;
-  background-color: #aea79f;
-  border-color: #aea79f; }
+  background-color: #95a5a6;
+  border-color: #95a5a6; }
 
 /* line 3067, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-default:focus,
 .btn-default.focus {
   color: #ffffff;
-  background-color: #978e83;
-  border-color: #6f675e; }
+  background-color: #798d8f;
+  border-color: #566566; }
 
 /* line 3073, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-default:hover {
   color: #ffffff;
-  background-color: #978e83;
-  border-color: #92897e; }
+  background-color: #798d8f;
+  border-color: #74898a; }
 
 /* line 3078, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #ffffff;
-  background-color: #978e83;
-  border-color: #92897e; }
+  background-color: #798d8f;
+  border-color: #74898a; }
 
 /* line 3085, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-default:active:hover,
@@ -3824,8 +3824,8 @@ fieldset[disabled] a.btn {
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
   color: #ffffff;
-  background-color: #867c71;
-  border-color: #6f675e; }
+  background-color: #687b7c;
+  border-color: #566566; }
 
 /* line 3098, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-default:active,
@@ -3852,40 +3852,40 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #aea79f;
-  border-color: #aea79f; }
+  background-color: #95a5a6;
+  border-color: #95a5a6; }
 
 /* line 3124, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-default .badge {
-  color: #aea79f;
+  color: #95a5a6;
   background-color: #ffffff; }
 
 /* line 3128, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-primary {
   color: #ffffff;
-  background-color: #dd4814;
-  border-color: #dd4814; }
+  background-color: #2c3e50;
+  border-color: #2c3e50; }
 
 /* line 3133, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #ae3910;
-  border-color: #682209; }
+  background-color: #1a242f;
+  border-color: #000000; }
 
 /* line 3139, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #ae3910;
-  border-color: #a5360f; }
+  background-color: #1a242f;
+  border-color: #161f29; }
 
 /* line 3144, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #ae3910;
-  border-color: #a5360f; }
+  background-color: #1a242f;
+  border-color: #161f29; }
 
 /* line 3151, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-primary:active:hover,
@@ -3898,8 +3898,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #ffffff;
-  background-color: #8d2e0d;
-  border-color: #682209; }
+  background-color: #0d1318;
+  border-color: #000000; }
 
 /* line 3164, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-primary:active,
@@ -3926,40 +3926,40 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #dd4814;
-  border-color: #dd4814; }
+  background-color: #2c3e50;
+  border-color: #2c3e50; }
 
 /* line 3190, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-primary .badge {
-  color: #dd4814;
+  color: #2c3e50;
   background-color: #ffffff; }
 
 /* line 3194, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-success {
   color: #ffffff;
-  background-color: #38b44a;
-  border-color: #38b44a; }
+  background-color: #18bc9c;
+  border-color: #18bc9c; }
 
 /* line 3199, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-success:focus,
 .btn-success.focus {
   color: #ffffff;
-  background-color: #2c8d3a;
-  border-color: #1a5322; }
+  background-color: #128f76;
+  border-color: #0a4b3e; }
 
 /* line 3205, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-success:hover {
   color: #ffffff;
-  background-color: #2c8d3a;
-  border-color: #298537; }
+  background-color: #128f76;
+  border-color: #11866f; }
 
 /* line 3210, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #2c8d3a;
-  border-color: #298537; }
+  background-color: #128f76;
+  border-color: #11866f; }
 
 /* line 3217, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-success:active:hover,
@@ -3972,8 +3972,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #ffffff;
-  background-color: #23722f;
-  border-color: #1a5322; }
+  background-color: #0e6f5c;
+  border-color: #0a4b3e; }
 
 /* line 3230, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-success:active,
@@ -4000,40 +4000,40 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #38b44a;
-  border-color: #38b44a; }
+  background-color: #18bc9c;
+  border-color: #18bc9c; }
 
 /* line 3256, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-success .badge {
-  color: #38b44a;
+  color: #18bc9c;
   background-color: #ffffff; }
 
 /* line 3260, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-info {
   color: #ffffff;
-  background-color: #772953;
-  border-color: #772953; }
+  background-color: #3498db;
+  border-color: #3498db; }
 
 /* line 3265, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-info:focus,
 .btn-info.focus {
   color: #ffffff;
-  background-color: #511c39;
-  border-color: #180811; }
+  background-color: #217dbb;
+  border-color: #16527a; }
 
 /* line 3271, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-info:hover {
   color: #ffffff;
-  background-color: #511c39;
-  border-color: #491933; }
+  background-color: #217dbb;
+  border-color: #2077b2; }
 
 /* line 3276, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #511c39;
-  border-color: #491933; }
+  background-color: #217dbb;
+  border-color: #2077b2; }
 
 /* line 3283, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-info:active:hover,
@@ -4046,8 +4046,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active.focus,
 .open > .dropdown-toggle.btn-info.focus {
   color: #ffffff;
-  background-color: #371326;
-  border-color: #180811; }
+  background-color: #1c699d;
+  border-color: #16527a; }
 
 /* line 3296, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-info:active,
@@ -4074,40 +4074,40 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #772953;
-  border-color: #772953; }
+  background-color: #3498db;
+  border-color: #3498db; }
 
 /* line 3322, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-info .badge {
-  color: #772953;
+  color: #3498db;
   background-color: #ffffff; }
 
 /* line 3326, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-warning {
   color: #ffffff;
-  background-color: #efb73e;
-  border-color: #efb73e; }
+  background-color: #f39c12;
+  border-color: #f39c12; }
 
 /* line 3331, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-warning:focus,
 .btn-warning.focus {
   color: #ffffff;
-  background-color: #e7a413;
-  border-color: #a0720d; }
+  background-color: #c87f0a;
+  border-color: #7f5006; }
 
 /* line 3337, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-warning:hover {
   color: #ffffff;
-  background-color: #e7a413;
-  border-color: #dd9d12; }
+  background-color: #c87f0a;
+  border-color: #be780a; }
 
 /* line 3342, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
   color: #ffffff;
-  background-color: #e7a413;
-  border-color: #dd9d12; }
+  background-color: #c87f0a;
+  border-color: #be780a; }
 
 /* line 3349, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-warning:active:hover,
@@ -4120,8 +4120,8 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active.focus,
 .open > .dropdown-toggle.btn-warning.focus {
   color: #ffffff;
-  background-color: #c68c10;
-  border-color: #a0720d; }
+  background-color: #a66908;
+  border-color: #7f5006; }
 
 /* line 3362, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-warning:active,
@@ -4148,40 +4148,40 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #efb73e;
-  border-color: #efb73e; }
+  background-color: #f39c12;
+  border-color: #f39c12; }
 
 /* line 3388, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-warning .badge {
-  color: #efb73e;
+  color: #f39c12;
   background-color: #ffffff; }
 
 /* line 3392, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-danger {
   color: #ffffff;
-  background-color: #df382c;
-  border-color: #df382c; }
+  background-color: #e74c3c;
+  border-color: #e74c3c; }
 
 /* line 3397, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-danger:focus,
 .btn-danger.focus {
   color: #ffffff;
-  background-color: #bc271c;
-  border-color: #791912; }
+  background-color: #d62c1a;
+  border-color: #921e12; }
 
 /* line 3403, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-danger:hover {
   color: #ffffff;
-  background-color: #bc271c;
-  border-color: #b3251b; }
+  background-color: #d62c1a;
+  border-color: #cd2a19; }
 
 /* line 3408, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-danger:active,
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #bc271c;
-  border-color: #b3251b; }
+  background-color: #d62c1a;
+  border-color: #cd2a19; }
 
 /* line 3415, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-danger:active:hover,
@@ -4194,8 +4194,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active.focus,
 .open > .dropdown-toggle.btn-danger.focus {
   color: #ffffff;
-  background-color: #9d2118;
-  border-color: #791912; }
+  background-color: #b62516;
+  border-color: #921e12; }
 
 /* line 3428, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-danger:active,
@@ -4222,17 +4222,17 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #df382c;
-  border-color: #df382c; }
+  background-color: #e74c3c;
+  border-color: #e74c3c; }
 
 /* line 3454, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-danger .badge {
-  color: #df382c;
+  color: #e74c3c;
   background-color: #ffffff; }
 
 /* line 3458, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-link {
-  color: #dd4814;
+  color: #18bc9c;
   font-weight: normal;
   border-radius: 0; }
 
@@ -4256,7 +4256,7 @@ fieldset[disabled] .btn-link {
 /* line 3478, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-link:hover,
 .btn-link:focus {
-  color: #97310e;
+  color: #18bc9c;
   text-decoration: underline;
   background-color: transparent; }
 
@@ -4265,22 +4265,22 @@ fieldset[disabled] .btn-link {
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
-  color: #aea79f;
+  color: #b4bcc2;
   text-decoration: none; }
 
 /* line 3491, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 14px 16px;
-  font-size: 18px;
+  padding: 18px 27px;
+  font-size: 19px;
   line-height: 1.3333333;
   border-radius: 6px; }
 
 /* line 3498, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .btn-sm,
 .btn-group-sm > .btn {
-  padding: 5px 10px;
-  font-size: 12px;
+  padding: 6px 9px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
@@ -4288,7 +4288,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-xs,
 .btn-group-xs > .btn {
   padding: 1px 5px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
@@ -4382,7 +4382,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -4401,7 +4401,7 @@ tbody.collapse.in {
 /* line 3603, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .dropdown-menu .divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 9.5px 0;
   overflow: hidden;
   background-color: #e5e5e5; }
 
@@ -4412,7 +4412,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #333333;
+  color: #7b8a8b;
   white-space: nowrap; }
 
 /* line 3618, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -4420,7 +4420,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #ffffff;
-  background-color: #dd4814; }
+  background-color: #2c3e50; }
 
 /* line 3624, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .dropdown-menu > .active > a,
@@ -4429,13 +4429,13 @@ tbody.collapse.in {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #dd4814; }
+  background-color: #2c3e50; }
 
 /* line 3632, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #aea79f; }
+  color: #b4bcc2; }
 
 /* line 3637, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .dropdown-menu > .disabled > a:hover,
@@ -4468,9 +4468,9 @@ tbody.collapse.in {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.42857143;
-  color: #aea79f;
+  color: #b4bcc2;
   white-space: nowrap; }
 
 /* line 3667, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -4742,9 +4742,9 @@ tbody.collapse.in {
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 54px;
-  padding: 14px 16px;
-  font-size: 18px;
+  height: 66px;
+  padding: 18px 27px;
+  font-size: 19px;
   line-height: 1.3333333;
   border-radius: 6px; }
 
@@ -4752,8 +4752,8 @@ tbody.collapse.in {
 select.input-group-lg > .form-control,
 select.input-group-lg > .input-group-addon,
 select.input-group-lg > .input-group-btn > .btn {
-  height: 54px;
-  line-height: 54px; }
+  height: 66px;
+  line-height: 66px; }
 
 /* line 3903, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 textarea.input-group-lg > .form-control,
@@ -4768,9 +4768,9 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
 .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
-  height: 30px;
-  padding: 5px 10px;
-  font-size: 12px;
+  height: 35px;
+  padding: 6px 9px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
@@ -4778,8 +4778,8 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
 select.input-group-sm > .form-control,
 select.input-group-sm > .input-group-addon,
 select.input-group-sm > .input-group-btn > .btn {
-  height: 30px;
-  line-height: 30px; }
+  height: 35px;
+  line-height: 35px; }
 
 /* line 3926, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 textarea.input-group-sm > .form-control,
@@ -4811,26 +4811,26 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 /* line 3950, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .input-group-addon {
-  padding: 8px 12px;
-  font-size: 14px;
+  padding: 10px 15px;
+  font-size: 15px;
   font-weight: normal;
   line-height: 1;
-  color: #333333;
+  color: #2c3e50;
   text-align: center;
-  background-color: #eeeeee;
-  border: 1px solid #cccccc;
+  background-color: #ecf0f1;
+  border: 1px solid #dce4ec;
   border-radius: 4px; }
 
 /* line 3961, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .input-group-addon.input-sm {
-  padding: 5px 10px;
-  font-size: 12px;
+  padding: 6px 9px;
+  font-size: 13px;
   border-radius: 3px; }
 
 /* line 3966, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .input-group-addon.input-lg {
-  padding: 14px 16px;
-  font-size: 18px;
+  padding: 18px 27px;
+  font-size: 19px;
   border-radius: 6px; }
 
 /* line 3971, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -4920,16 +4920,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee; }
+  background-color: #ecf0f1; }
 
 /* line 4045, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .nav > li.disabled > a {
-  color: #aea79f; }
+  color: #b4bcc2; }
 
 /* line 4048, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #aea79f;
+  color: #b4bcc2;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed; }
@@ -4938,13 +4938,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
-  border-color: #dd4814; }
+  background-color: #ecf0f1;
+  border-color: #18bc9c; }
 
 /* line 4061, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .nav .nav-divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 9.5px 0;
   overflow: hidden;
   background-color: #e5e5e5; }
 
@@ -4954,7 +4954,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 /* line 4070, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .nav-tabs {
-  border-bottom: 1px solid #dddddd; }
+  border-bottom: 1px solid #ecf0f1; }
 
 /* line 4073, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .nav-tabs > li {
@@ -4970,15 +4970,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 /* line 4083, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd; }
+  border-color: #ecf0f1 #ecf0f1 #ecf0f1; }
 
 /* line 4086, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #777777;
+  color: #2c3e50;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #ecf0f1;
   border-bottom-color: transparent;
   cursor: default; }
 
@@ -5019,12 +5019,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #dddddd; }
+  border: 1px solid #ecf0f1; }
 
 @media (min-width: 768px) {
   /* line 4129, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ecf0f1;
     border-radius: 4px 4px 0 0; }
 
   /* line 4133, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5049,7 +5049,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #dd4814; }
+  background-color: #2c3e50; }
 
 /* line 4154, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .nav-stacked > li {
@@ -5100,12 +5100,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus {
-  border: 1px solid #dddddd; }
+  border: 1px solid #ecf0f1; }
 
 @media (min-width: 768px) {
   /* line 4197, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .nav-tabs-justified > li > a {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ecf0f1;
     border-radius: 4px 4px 0 0; }
 
   /* line 4201, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5130,7 +5130,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 4218, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 60px;
   border: 1px solid transparent; }
 
 @media (min-width: 768px) {
@@ -5238,10 +5238,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 4320, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
-  height: 50px; }
+  padding: 19.5px 15px;
+  font-size: 19px;
+  line-height: 21px;
+  height: 60px; }
 
 /* line 4327, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-brand:hover,
@@ -5263,8 +5263,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -5291,13 +5291,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: none; } }
 /* line 4369, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-nav {
-  margin: 7.5px -15px; }
+  margin: 9.75px -15px; }
 
 /* line 4372, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px; }
+  line-height: 21px; }
 
 @media (max-width: 767px) {
   /* line 4378, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5318,7 +5318,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
   /* line 4392, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px; }
+    line-height: 21px; }
 
   /* line 4395, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover,
@@ -5336,8 +5336,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
   /* line 4408, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px; } }
+    padding-top: 19.5px;
+    padding-bottom: 19.5px; } }
 /* line 4413, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-form {
   margin-left: -15px;
@@ -5347,8 +5347,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 6px;
-  margin-bottom: 6px; }
+  margin-top: 7.5px;
+  margin-bottom: 7.5px; }
 
 @media (min-width: 768px) {
   /* line 4425, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5444,23 +5444,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 /* line 4506, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-btn {
-  margin-top: 6px;
-  margin-bottom: 6px; }
+  margin-top: 7.5px;
+  margin-bottom: 7.5px; }
 
 /* line 4510, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-btn.btn-sm {
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-top: 12.5px;
+  margin-bottom: 12.5px; }
 
 /* line 4514, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-btn.btn-xs {
-  margin-top: 14px;
-  margin-bottom: 14px; }
+  margin-top: 19px;
+  margin-bottom: 19px; }
 
 /* line 4518, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  margin-top: 19.5px;
+  margin-bottom: 19.5px; }
 
 @media (min-width: 768px) {
   /* line 4523, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5483,8 +5483,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0; } }
 /* line 4541, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default {
-  background-color: #dd4814;
-  border-color: #bf3e11; }
+  background-color: #2c3e50;
+  border-color: transparent; }
 
 /* line 4545, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-brand {
@@ -5493,12 +5493,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 4548, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffffff;
-  background-color: none; }
+  color: #18bc9c;
+  background-color: transparent; }
 
 /* line 4553, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-text {
-  color: #ffffff; }
+  color: #777777; }
 
 /* line 4556, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-nav > li > a {
@@ -5507,15 +5507,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 4559, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-  background-color: #97310e; }
+  color: #18bc9c;
+  background-color: transparent; }
 
 /* line 4564, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #ae3910; }
+  background-color: #1a242f; }
 
 /* line 4570, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-nav > .disabled > a,
@@ -5526,12 +5526,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 /* line 4576, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-toggle {
-  border-color: #97310e; }
+  border-color: #1a242f; }
 
 /* line 4579, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #97310e; }
+  background-color: #1a242f; }
 
 /* line 4583, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-toggle .icon-bar {
@@ -5540,13 +5540,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 4586, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #bf3e11; }
+  border-color: transparent; }
 
 /* line 4590, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #ae3910;
+  background-color: #1a242f;
   color: #ffffff; }
 
 @media (max-width: 767px) {
@@ -5557,15 +5557,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   /* line 4600, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
-    background-color: #97310e; }
+    color: #18bc9c;
+    background-color: transparent; }
 
   /* line 4605, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #ae3910; }
+    background-color: #1a242f; }
 
   /* line 4611, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -5579,7 +5579,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 /* line 4621, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .navbar-link:hover {
-  color: #ffffff; }
+  color: #18bc9c; }
 
 /* line 4624, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .btn-link {
@@ -5588,7 +5588,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 4627, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-  color: #ffffff; }
+  color: #18bc9c; }
 
 /* line 4631, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .btn-link[disabled]:hover,
@@ -5599,8 +5599,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 /* line 4637, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse {
-  background-color: #772953;
-  border-color: #511c39; }
+  background-color: #18bc9c;
+  border-color: transparent; }
 
 /* line 4641, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-brand {
@@ -5609,8 +5609,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* line 4644, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ffffff;
-  background-color: none; }
+  color: #2c3e50;
+  background-color: transparent; }
 
 /* line 4649, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-text {
@@ -5623,15 +5623,15 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* line 4655, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ffffff;
-  background-color: #3e152b; }
+  color: #2c3e50;
+  background-color: transparent; }
 
 /* line 4660, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #511c39; }
+  background-color: #15a589; }
 
 /* line 4666, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -5642,12 +5642,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 /* line 4672, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-toggle {
-  border-color: #3e152b; }
+  border-color: #128f76; }
 
 /* line 4675, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #3e152b; }
+  background-color: #128f76; }
 
 /* line 4679, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -5656,23 +5656,23 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* line 4682, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #5c2040; }
+  border-color: #149c82; }
 
 /* line 4686, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #511c39;
+  background-color: #15a589;
   color: #ffffff; }
 
 @media (max-width: 767px) {
   /* line 4693, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #511c39; }
+    border-color: transparent; }
 
   /* line 4696, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #511c39; }
+    background-color: transparent; }
 
   /* line 4699, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
@@ -5681,15 +5681,15 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   /* line 4702, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
-    background-color: #3e152b; }
+    color: #2c3e50;
+    background-color: transparent; }
 
   /* line 4707, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #511c39; }
+    background-color: #15a589; }
 
   /* line 4713, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -5703,7 +5703,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 /* line 4723, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .navbar-link:hover {
-  color: #ffffff; }
+  color: #2c3e50; }
 
 /* line 4726, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .btn-link {
@@ -5712,7 +5712,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* line 4729, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
-  color: #ffffff; }
+  color: #2c3e50; }
 
 /* line 4733, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .btn-link[disabled]:hover,
@@ -5724,9 +5724,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 /* line 4739, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #ecf0f1;
   border-radius: 4px; }
 
 /* line 4746, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5741,13 +5741,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
 /* line 4754, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .breadcrumb > .active {
-  color: #aea79f; }
+  color: #95a5a6; }
 
 /* line 4757, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 20px 0;
+  margin: 21px 0;
   border-radius: 4px; }
 
 /* line 4763, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5759,12 +5759,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span {
   position: relative;
   float: left;
-  padding: 8px 12px;
+  padding: 10px 15px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #dd4814;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  color: #ffffff;
+  background-color: #18bc9c;
+  border: 1px solid transparent;
   margin-left: -1px; }
 
 /* line 4778, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5786,9 +5786,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 3;
-  color: #97310e;
-  background-color: #eeeeee;
-  border-color: #dddddd; }
+  color: #ffffff;
+  background-color: #0f7864;
+  border-color: transparent; }
 
 /* line 4798, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .pagination > .active > a,
@@ -5798,9 +5798,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
   z-index: 2;
-  color: #aea79f;
-  background-color: #f5f5f5;
-  border-color: #dddddd;
+  color: #ffffff;
+  background-color: #0f7864;
+  border-color: transparent;
   cursor: default; }
 
 /* line 4810, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5810,16 +5810,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
-  color: #aea79f;
-  background-color: #ffffff;
-  border-color: #dddddd;
+  color: #ecf0f1;
+  background-color: #3be6c4;
+  border-color: transparent;
   cursor: not-allowed; }
 
 /* line 4821, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .pagination-lg > li > a,
 .pagination-lg > li > span {
-  padding: 14px 16px;
-  font-size: 18px;
+  padding: 18px 27px;
+  font-size: 19px;
   line-height: 1.3333333; }
 
 /* line 4827, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5837,8 +5837,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 /* line 4837, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .pagination-sm > li > a,
 .pagination-sm > li > span {
-  padding: 5px 10px;
-  font-size: 12px;
+  padding: 6px 9px;
+  font-size: 13px;
   line-height: 1.5; }
 
 /* line 4843, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5856,7 +5856,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 /* line 4853, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .pager {
   padding-left: 0;
-  margin: 20px 0;
+  margin: 21px 0;
   list-style: none;
   text-align: center; }
 
@@ -5869,15 +5869,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  background-color: #18bc9c;
+  border: 1px solid transparent;
   border-radius: 15px; }
 
 /* line 4870, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee; }
+  background-color: #0f7864; }
 
 /* line 4875, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .pager .next > a,
@@ -5894,8 +5894,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #aea79f;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #18bc9c;
   cursor: not-allowed; }
 
 /* line 4891, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -5929,71 +5929,71 @@ a.label:focus {
 
 /* line 4916, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-default {
-  background-color: #aea79f; }
+  background-color: #95a5a6; }
 
 /* line 4919, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-default[href]:hover,
 .label-default[href]:focus {
-  background-color: #978e83; }
+  background-color: #798d8f; }
 
 /* line 4923, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-primary {
-  background-color: #dd4814; }
+  background-color: #2c3e50; }
 
 /* line 4926, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #ae3910; }
+  background-color: #1a242f; }
 
 /* line 4930, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-success {
-  background-color: #38b44a; }
+  background-color: #18bc9c; }
 
 /* line 4933, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #2c8d3a; }
+  background-color: #128f76; }
 
 /* line 4937, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-info {
-  background-color: #772953; }
+  background-color: #3498db; }
 
 /* line 4940, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #511c39; }
+  background-color: #217dbb; }
 
 /* line 4944, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-warning {
-  background-color: #efb73e; }
+  background-color: #f39c12; }
 
 /* line 4947, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #e7a413; }
+  background-color: #c87f0a; }
 
 /* line 4951, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-danger {
-  background-color: #df382c; }
+  background-color: #e74c3c; }
 
 /* line 4954, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .label-danger[href]:hover,
 .label-danger[href]:focus {
-  background-color: #bc271c; }
+  background-color: #d62c1a; }
 
 /* line 4958, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .badge {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   color: #ffffff;
   line-height: 1;
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #aea79f;
+  background-color: #2c3e50;
   border-radius: 10px; }
 
 /* line 4972, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -6021,7 +6021,7 @@ a.badge:focus {
 /* line 4990, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #dd4814;
+  color: #2c3e50;
   background-color: #ffffff; }
 
 /* line 4995, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -6042,7 +6042,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee; }
+  background-color: #ecf0f1; }
 
 /* line 5011, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .jumbotron h1,
@@ -6052,12 +6052,12 @@ a.badge:focus {
 /* line 5015, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 23px;
   font-weight: 200; }
 
 /* line 5020, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .jumbotron > hr {
-  border-top-color: #d5d5d5; }
+  border-top-color: #cfd9db; }
 
 /* line 5023, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .container .jumbotron,
@@ -6083,15 +6083,15 @@ a.badge:focus {
   /* line 5040, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px; } }
+    font-size: 68px; } }
 /* line 5045, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .thumbnail {
   display: block;
   padding: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   line-height: 1.42857143;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #ecf0f1;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
@@ -6107,17 +6107,17 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #dd4814; }
+  border-color: #18bc9c; }
 
 /* line 5067, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .thumbnail .caption {
   padding: 9px;
-  color: #333333; }
+  color: #2c3e50; }
 
 /* line 5071, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert {
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   border: 1px solid transparent;
   border-radius: 4px; }
 
@@ -6154,59 +6154,59 @@ a.thumbnail.active {
 
 /* line 5102, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-success {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-  color: #468847; }
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+  color: #ffffff; }
 
 /* line 5107, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-success hr {
-  border-top-color: #c9e2b3; }
+  border-top-color: #15a589; }
 
 /* line 5110, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-success .alert-link {
-  color: #356635; }
+  color: #e6e6e6; }
 
 /* line 5113, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-info {
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-  color: #3a87ad; }
+  background-color: #3498db;
+  border-color: #3498db;
+  color: #ffffff; }
 
 /* line 5118, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-info hr {
-  border-top-color: #a6e1ec; }
+  border-top-color: #258cd1; }
 
 /* line 5121, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-info .alert-link {
-  color: #2d6987; }
+  color: #e6e6e6; }
 
 /* line 5124, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-warning {
-  background-color: #fcf8e3;
-  border-color: #fbeed5;
-  color: #c09853; }
+  background-color: #f39c12;
+  border-color: #f39c12;
+  color: #ffffff; }
 
 /* line 5129, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-warning hr {
-  border-top-color: #f8e5be; }
+  border-top-color: #e08e0b; }
 
 /* line 5132, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-warning .alert-link {
-  color: #a47e3c; }
+  color: #e6e6e6; }
 
 /* line 5135, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-danger {
-  background-color: #f2dede;
-  border-color: #eed3d7;
-  color: #b94a48; }
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: #ffffff; }
 
 /* line 5140, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-danger hr {
-  border-top-color: #e6c1c7; }
+  border-top-color: #e43725; }
 
 /* line 5143, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .alert-danger .alert-link {
-  color: #953b39; }
+  color: #e6e6e6; }
 
 @-webkit-keyframes progress-bar-stripes {
   from {
@@ -6226,9 +6226,9 @@ a.thumbnail.active {
 /* line 5170, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress {
   overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
+  height: 21px;
+  margin-bottom: 21px;
+  background-color: #ecf0f1;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
@@ -6238,11 +6238,11 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 21px;
   color: #ffffff;
   text-align: center;
-  background-color: #dd4814;
+  background-color: #2c3e50;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6267,7 +6267,7 @@ a.thumbnail.active {
 
 /* line 5208, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress-bar-success {
-  background-color: #38b44a; }
+  background-color: #18bc9c; }
 
 /* line 5211, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress-striped .progress-bar-success {
@@ -6277,7 +6277,7 @@ a.thumbnail.active {
 
 /* line 5216, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress-bar-info {
-  background-color: #772953; }
+  background-color: #3498db; }
 
 /* line 5219, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress-striped .progress-bar-info {
@@ -6287,7 +6287,7 @@ a.thumbnail.active {
 
 /* line 5224, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress-bar-warning {
-  background-color: #efb73e; }
+  background-color: #f39c12; }
 
 /* line 5227, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress-striped .progress-bar-warning {
@@ -6297,7 +6297,7 @@ a.thumbnail.active {
 
 /* line 5232, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress-bar-danger {
-  background-color: #df382c; }
+  background-color: #e74c3c; }
 
 /* line 5235, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .progress-striped .progress-bar-danger {
@@ -6378,7 +6378,7 @@ a.thumbnail.active {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #ffffff;
-  border: 1px solid #dddddd; }
+  border: 1px solid #ecf0f1; }
 
 /* line 5300, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item:first-child {
@@ -6408,7 +6408,7 @@ a.list-group-item:focus,
 button.list-group-item:focus {
   text-decoration: none;
   color: #555555;
-  background-color: #f5f5f5; }
+  background-color: #ecf0f1; }
 
 /* line 5325, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 button.list-group-item {
@@ -6419,8 +6419,8 @@ button.list-group-item {
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
 .list-group-item.disabled:focus {
-  background-color: #eeeeee;
-  color: #aea79f;
+  background-color: #ecf0f1;
+  color: #b4bcc2;
   cursor: not-allowed; }
 
 /* line 5336, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -6433,7 +6433,7 @@ button.list-group-item {
 .list-group-item.disabled .list-group-item-text,
 .list-group-item.disabled:hover .list-group-item-text,
 .list-group-item.disabled:focus .list-group-item-text {
-  color: #aea79f; }
+  color: #b4bcc2; }
 
 /* line 5346, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item.active,
@@ -6441,8 +6441,8 @@ button.list-group-item {
 .list-group-item.active:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #dd4814;
-  border-color: #dd4814; }
+  background-color: #2c3e50;
+  border-color: #2c3e50; }
 
 /* line 5354, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item.active .list-group-item-heading,
@@ -6460,17 +6460,17 @@ button.list-group-item {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #fad1c3; }
+  color: #8aa4be; }
 
 /* line 5370, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item-success {
-  color: #468847;
-  background-color: #dff0d8; }
+  color: #ffffff;
+  background-color: #18bc9c; }
 
 /* line 5374, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-success,
 button.list-group-item-success {
-  color: #468847; }
+  color: #ffffff; }
 
 /* line 5378, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-success .list-group-item-heading,
@@ -6482,8 +6482,8 @@ a.list-group-item-success:hover,
 button.list-group-item-success:hover,
 a.list-group-item-success:focus,
 button.list-group-item-success:focus {
-  color: #468847;
-  background-color: #d0e9c6; }
+  color: #ffffff;
+  background-color: #15a589; }
 
 /* line 5389, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-success.active,
@@ -6493,18 +6493,18 @@ button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
   color: #fff;
-  background-color: #468847;
-  border-color: #468847; }
+  background-color: #ffffff;
+  border-color: #ffffff; }
 
 /* line 5399, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item-info {
-  color: #3a87ad;
-  background-color: #d9edf7; }
+  color: #ffffff;
+  background-color: #3498db; }
 
 /* line 5403, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-info,
 button.list-group-item-info {
-  color: #3a87ad; }
+  color: #ffffff; }
 
 /* line 5407, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-info .list-group-item-heading,
@@ -6516,8 +6516,8 @@ a.list-group-item-info:hover,
 button.list-group-item-info:hover,
 a.list-group-item-info:focus,
 button.list-group-item-info:focus {
-  color: #3a87ad;
-  background-color: #c4e3f3; }
+  color: #ffffff;
+  background-color: #258cd1; }
 
 /* line 5418, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-info.active,
@@ -6527,18 +6527,18 @@ button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
   color: #fff;
-  background-color: #3a87ad;
-  border-color: #3a87ad; }
+  background-color: #ffffff;
+  border-color: #ffffff; }
 
 /* line 5428, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item-warning {
-  color: #c09853;
-  background-color: #fcf8e3; }
+  color: #ffffff;
+  background-color: #f39c12; }
 
 /* line 5432, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-warning,
 button.list-group-item-warning {
-  color: #c09853; }
+  color: #ffffff; }
 
 /* line 5436, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-warning .list-group-item-heading,
@@ -6550,8 +6550,8 @@ a.list-group-item-warning:hover,
 button.list-group-item-warning:hover,
 a.list-group-item-warning:focus,
 button.list-group-item-warning:focus {
-  color: #c09853;
-  background-color: #faf2cc; }
+  color: #ffffff;
+  background-color: #e08e0b; }
 
 /* line 5447, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-warning.active,
@@ -6561,18 +6561,18 @@ button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
   color: #fff;
-  background-color: #c09853;
-  border-color: #c09853; }
+  background-color: #ffffff;
+  border-color: #ffffff; }
 
 /* line 5457, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item-danger {
-  color: #b94a48;
-  background-color: #f2dede; }
+  color: #ffffff;
+  background-color: #e74c3c; }
 
 /* line 5461, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-danger,
 button.list-group-item-danger {
-  color: #b94a48; }
+  color: #ffffff; }
 
 /* line 5465, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-danger .list-group-item-heading,
@@ -6584,8 +6584,8 @@ a.list-group-item-danger:hover,
 button.list-group-item-danger:hover,
 a.list-group-item-danger:focus,
 button.list-group-item-danger:focus {
-  color: #b94a48;
-  background-color: #ebcccc; }
+  color: #ffffff;
+  background-color: #e43725; }
 
 /* line 5476, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 a.list-group-item-danger.active,
@@ -6595,8 +6595,8 @@ button.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:focus {
   color: #fff;
-  background-color: #b94a48;
-  border-color: #b94a48; }
+  background-color: #ffffff;
+  border-color: #ffffff; }
 
 /* line 5486, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .list-group-item-heading {
@@ -6610,7 +6610,7 @@ button.list-group-item-danger.active:focus {
 
 /* line 5494, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel {
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -6636,7 +6636,7 @@ button.list-group-item-danger.active:focus {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 17px;
   color: inherit; }
 
 /* line 5520, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
@@ -6650,8 +6650,8 @@ button.list-group-item-danger.active:focus {
 /* line 5527, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-footer {
   padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #dddddd;
+  background-color: #ecf0f1;
+  border-top: 1px solid #ecf0f1;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px; }
 
@@ -6783,7 +6783,7 @@ button.list-group-item-danger.active:focus {
 .panel > .panel-body + .table-responsive,
 .panel > .table + .panel-body,
 .panel > .table-responsive + .panel-body {
-  border-top: 1px solid #dddddd; }
+  border-top: 1px solid #ecf0f1; }
 
 /* line 5646, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel > .table > tbody:first-child > tr:first-child th,
@@ -6854,7 +6854,7 @@ button.list-group-item-danger.active:focus {
 
 /* line 5706, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-group {
-  margin-bottom: 20px; }
+  margin-bottom: 21px; }
 
 /* line 5709, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-group .panel {
@@ -6872,7 +6872,7 @@ button.list-group-item-danger.active:focus {
 /* line 5719, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
-  border-top: 1px solid #dddddd; }
+  border-top: 1px solid #ecf0f1; }
 
 /* line 5723, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-group .panel-footer {
@@ -6880,145 +6880,145 @@ button.list-group-item-danger.active:focus {
 
 /* line 5726, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-group .panel-footer + .panel-collapse .panel-body {
-  border-bottom: 1px solid #dddddd; }
+  border-bottom: 1px solid #ecf0f1; }
 
 /* line 5729, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-default {
-  border-color: #dddddd; }
+  border-color: #ecf0f1; }
 
 /* line 5732, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-default > .panel-heading {
-  color: #333333;
-  background-color: #f5f5f5;
-  border-color: #dddddd; }
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1; }
 
 /* line 5737, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #dddddd; }
+  border-top-color: #ecf0f1; }
 
 /* line 5740, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-default > .panel-heading .badge {
-  color: #f5f5f5;
-  background-color: #333333; }
+  color: #ecf0f1;
+  background-color: #2c3e50; }
 
 /* line 5744, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #dddddd; }
+  border-bottom-color: #ecf0f1; }
 
 /* line 5747, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-primary {
-  border-color: #dd4814; }
+  border-color: #2c3e50; }
 
 /* line 5750, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #dd4814;
-  border-color: #dd4814; }
+  background-color: #2c3e50;
+  border-color: #2c3e50; }
 
 /* line 5755, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #dd4814; }
+  border-top-color: #2c3e50; }
 
 /* line 5758, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-primary > .panel-heading .badge {
-  color: #dd4814;
+  color: #2c3e50;
   background-color: #ffffff; }
 
 /* line 5762, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #dd4814; }
+  border-bottom-color: #2c3e50; }
 
 /* line 5765, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-success {
-  border-color: #d6e9c6; }
+  border-color: #18bc9c; }
 
 /* line 5768, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-success > .panel-heading {
-  color: #468847;
-  background-color: #dff0d8;
-  border-color: #d6e9c6; }
+  color: #ffffff;
+  background-color: #18bc9c;
+  border-color: #18bc9c; }
 
 /* line 5773, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #d6e9c6; }
+  border-top-color: #18bc9c; }
 
 /* line 5776, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-success > .panel-heading .badge {
-  color: #dff0d8;
-  background-color: #468847; }
+  color: #18bc9c;
+  background-color: #ffffff; }
 
 /* line 5780, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #d6e9c6; }
+  border-bottom-color: #18bc9c; }
 
 /* line 5783, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-info {
-  border-color: #bce8f1; }
+  border-color: #3498db; }
 
 /* line 5786, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-info > .panel-heading {
-  color: #3a87ad;
-  background-color: #d9edf7;
-  border-color: #bce8f1; }
+  color: #ffffff;
+  background-color: #3498db;
+  border-color: #3498db; }
 
 /* line 5791, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #bce8f1; }
+  border-top-color: #3498db; }
 
 /* line 5794, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-info > .panel-heading .badge {
-  color: #d9edf7;
-  background-color: #3a87ad; }
+  color: #3498db;
+  background-color: #ffffff; }
 
 /* line 5798, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-info > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #bce8f1; }
+  border-bottom-color: #3498db; }
 
 /* line 5801, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-warning {
-  border-color: #fbeed5; }
+  border-color: #f39c12; }
 
 /* line 5804, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-warning > .panel-heading {
-  color: #c09853;
-  background-color: #fcf8e3;
-  border-color: #fbeed5; }
+  color: #ffffff;
+  background-color: #f39c12;
+  border-color: #f39c12; }
 
 /* line 5809, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-warning > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #fbeed5; }
+  border-top-color: #f39c12; }
 
 /* line 5812, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-warning > .panel-heading .badge {
-  color: #fcf8e3;
-  background-color: #c09853; }
+  color: #f39c12;
+  background-color: #ffffff; }
 
 /* line 5816, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-warning > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #fbeed5; }
+  border-bottom-color: #f39c12; }
 
 /* line 5819, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-danger {
-  border-color: #eed3d7; }
+  border-color: #e74c3c; }
 
 /* line 5822, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-danger > .panel-heading {
-  color: #b94a48;
-  background-color: #f2dede;
-  border-color: #eed3d7; }
+  color: #ffffff;
+  background-color: #e74c3c;
+  border-color: #e74c3c; }
 
 /* line 5827, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-danger > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #eed3d7; }
+  border-top-color: #e74c3c; }
 
 /* line 5830, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-danger > .panel-heading .badge {
-  color: #f2dede;
-  background-color: #b94a48; }
+  color: #e74c3c;
+  background-color: #ffffff; }
 
 /* line 5834, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #eed3d7; }
+  border-bottom-color: #e74c3c; }
 
 /* line 5837, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .embed-responsive {
@@ -7055,8 +7055,8 @@ button.list-group-item-danger.active:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+  background-color: #ecf0f1;
+  border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
@@ -7079,11 +7079,11 @@ button.list-group-item-danger.active:focus {
 /* line 5885, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 22.5px;
   font-weight: bold;
   line-height: 1;
   color: #000000;
-  text-shadow: 0 1px 0 #ffffff;
+  text-shadow: none;
   opacity: 0.2;
   filter: alpha(opacity=20); }
 
@@ -7252,7 +7252,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7267,7 +7267,7 @@ button.close {
   word-break: normal;
   word-spacing: normal;
   word-wrap: normal;
-  font-size: 12px;
+  font-size: 13px;
   opacity: 0;
   filter: alpha(opacity=0); }
 
@@ -7386,7 +7386,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7401,7 +7401,7 @@ button.close {
   word-break: normal;
   word-spacing: normal;
   word-wrap: normal;
-  font-size: 14px;
+  font-size: 15px;
   background-color: #ffffff;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -7431,7 +7431,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 15px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-radius: 5px 5px 0 0; }
@@ -8081,16 +8081,314 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /* line 6795, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.navbar {
+  border-width: 0; }
+
+/* line 6798, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-default .badge {
   background-color: #fff;
-  color: #dd4814; }
+  color: #2c3e50; }
 
-/* line 6799, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+/* line 6802, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
 .navbar-inverse .badge {
   background-color: #fff;
-  color: #772953; }
+  color: #18bc9c; }
 
-@media (max-width: 767px) {
-  /* line 6804, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
-  .navbar .dropdown-menu a {
-    color: #fff; } }
+/* line 6806, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.navbar-brand {
+  line-height: 1; }
+
+/* line 6809, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.btn {
+  border-width: 2px; }
+
+/* line 6812, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.btn:active {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 6816, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 6820, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.text-primary,
+.text-primary:hover {
+  color: #2c3e50; }
+
+/* line 6824, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.text-success,
+.text-success:hover {
+  color: #18bc9c; }
+
+/* line 6828, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.text-danger,
+.text-danger:hover {
+  color: #e74c3c; }
+
+/* line 6832, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.text-warning,
+.text-warning:hover {
+  color: #f39c12; }
+
+/* line 6836, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.text-info,
+.text-info:hover {
+  color: #3498db; }
+
+/* line 6840, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+table a:not(.btn),
+.table a:not(.btn) {
+  text-decoration: underline; }
+
+/* line 6844, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+table .dropdown-menu a,
+.table .dropdown-menu a {
+  text-decoration: none; }
+
+/* line 6848, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+table .success,
+.table .success,
+table .warning,
+.table .warning,
+table .danger,
+.table .danger,
+table .info,
+.table .info {
+  color: #fff; }
+
+/* line 6858, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+table .success > th > a,
+.table .success > th > a,
+table .warning > th > a,
+.table .warning > th > a,
+table .danger > th > a,
+.table .danger > th > a,
+table .info > th > a,
+.table .info > th > a,
+table .success > td > a,
+.table .success > td > a,
+table .warning > td > a,
+.table .warning > td > a,
+table .danger > td > a,
+.table .danger > td > a,
+table .info > td > a,
+.table .info > td > a,
+table .success > a,
+.table .success > a,
+table .warning > a,
+.table .warning > a,
+table .danger > a,
+.table .danger > a,
+table .info > a,
+.table .info > a {
+  color: #fff; }
+
+/* line 6884, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+table > thead > tr > th,
+.table > thead > tr > th,
+table > tbody > tr > th,
+.table > tbody > tr > th,
+table > tfoot > tr > th,
+.table > tfoot > tr > th,
+table > thead > tr > td,
+.table > thead > tr > td,
+table > tbody > tr > td,
+.table > tbody > tr > td,
+table > tfoot > tr > td,
+.table > tfoot > tr > td {
+  border: none; }
+
+/* line 6898, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+table-bordered > thead > tr > th,
+.table-bordered > thead > tr > th,
+table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > th,
+table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > th,
+table-bordered > thead > tr > td,
+.table-bordered > thead > tr > td,
+table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > td,
+table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #ecf0f1; }
+
+/* line 6912, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.form-control,
+input {
+  border-width: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 6918, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.form-control:focus,
+input:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 6923, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline,
+.has-warning.radio label,
+.has-warning.checkbox label,
+.has-warning.radio-inline label,
+.has-warning.checkbox-inline label,
+.has-warning .form-control-feedback {
+  color: #f39c12; }
+
+/* line 6936, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-warning .form-control,
+.has-warning .form-control:focus {
+  border: 2px solid #f39c12; }
+
+/* line 6940, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-warning .input-group-addon {
+  border-color: #f39c12; }
+
+/* line 6943, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label,
+.has-error .form-control-feedback {
+  color: #e74c3c; }
+
+/* line 6956, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-error .form-control,
+.has-error .form-control:focus {
+  border: 2px solid #e74c3c; }
+
+/* line 6960, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-error .input-group-addon {
+  border-color: #e74c3c; }
+
+/* line 6963, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label,
+.has-success .form-control-feedback {
+  color: #18bc9c; }
+
+/* line 6976, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-success .form-control,
+.has-success .form-control:focus {
+  border: 2px solid #18bc9c; }
+
+/* line 6980, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.has-success .input-group-addon {
+  border-color: #18bc9c; }
+
+/* line 6983, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: transparent; }
+
+/* line 6988, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.pager a,
+.pager a:hover {
+  color: #fff; }
+
+/* line 6992, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  background-color: #3be6c4; }
+
+/* line 6998, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.close {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.4; }
+
+/* line 7003, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.close:hover,
+.close:focus {
+  color: #fff;
+  opacity: 1; }
+
+/* line 7008, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.alert .alert-link {
+  color: #fff;
+  text-decoration: underline; }
+
+/* line 7012, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.progress {
+  height: 10px;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 7017, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.progress .progress-bar {
+  font-size: 10px;
+  line-height: 10px; }
+
+/* line 7021, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.well {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 7025, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  border-color: #ecf0f1; }
+
+/* line 7030, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+a.list-group-item-success.active {
+  background-color: #18bc9c; }
+
+/* line 7033, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+a.list-group-item-success.active:hover,
+a.list-group-item-success.active:focus {
+  background-color: #15a589; }
+
+/* line 7037, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+a.list-group-item-warning.active {
+  background-color: #f39c12; }
+
+/* line 7040, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+a.list-group-item-warning.active:hover,
+a.list-group-item-warning.active:focus {
+  background-color: #e08e0b; }
+
+/* line 7044, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+a.list-group-item-danger.active {
+  background-color: #e74c3c; }
+
+/* line 7047, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+a.list-group-item-danger.active:hover,
+a.list-group-item-danger.active:focus {
+  background-color: #e43725; }
+
+/* line 7051, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.panel-default .close {
+  color: #2c3e50; }
+
+/* line 7054, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.modal .close {
+  color: #2c3e50; }
+
+/* line 7057, /home/ubuntu/deckie.io/source/stylesheets/theme.scss */
+.popover {
+  color: #2c3e50; }
