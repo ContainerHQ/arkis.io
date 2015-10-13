@@ -5,12 +5,12 @@
 
 ## Hack
 
-To hack on this documentation, you can directly use any markdown editor of
+To hack on this website, you can directly use any markdown editor of
 your choice (including directly editing the file on GitHub).
 
 This website is built using [Middleman](https://middlemanapp.com/).
 
-If you want to preview a live version of this documentation, all you need
+If you want to preview a live version of this website, all you need
 is [Docker](http://www.docker.com) and [Make](http://www.gnu.org/software/make/).
 
 ### Run the website server inside a container
