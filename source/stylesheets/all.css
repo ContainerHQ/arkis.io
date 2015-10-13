@@ -1,5 +1,16 @@
 body, html, .main.thanks {
-  height: 96.2%;
+  height: 95.1%;
+}
+
+.navbar-brand {
+  padding: none;
+  height: 80px;
+  padding: 0 10%;
+}
+
+.navbar-brand > img {
+  width: 14em;
+  display: block;
 }
 
 .main {
