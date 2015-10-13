@@ -9,7 +9,7 @@ body, html, .main.thanks {
 }
 
 .navbar-brand > img {
-  width: 14em;
+  width: 17em;
   display: block;
 }
 
@@ -32,6 +32,17 @@ body, html, .main.thanks {
 
 h2 {
   color: #dd4814;
+}
+
+p {
+  color: #2c3e50;
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 25px;
+  margin-top: 25.5px;
+  font-weight: bold;
 }
 
 .separator {
