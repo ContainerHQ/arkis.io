@@ -1,0 +1,19 @@
+dependencies:
+  override:
+    - bundle install
+
+compile:
+  override:
+    - echo "No compilation step"
+
+test:
+  override:
+    - echo "No test suite for this project"
+
+deployment:
+  github_pages:
+    branch: master
+    commands:
+      - git config --global user.email "bot@containerhq.io"
+      - git config --global user.name "Publish Bot"
+      - rake publish

@@ -1,0 +1,130 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href=".">Deckie</a>
+    </div>
+    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div> -->
+  </div>
+</nav>
+
+<div class="main">
+  <div class="col-lg-9 title">
+      <h1>Deckie is the easiest way to use Docker in production</h1>
+  </div>
+  <div class="well col-lg-3 subscribtion">
+      <form class="form-horizontal" id="subscribtionform" method="POST">
+        <fieldset>
+          <h2>Coming soon</h2>
+          <div class="separator"></div>
+          <p class="lead">Enter your email adress to have early access to Deckie and gain exclusive promotions.</p>
+          <!-- <div class="separator"></div> -->
+          <div class="form-group">
+            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email" required>
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_next" value="http://localhost:4567/thanks.html"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-1">
+              <button type="submit" class="btn btn-primary btn-lg btn-block" value="Send">Submit</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+  </div>
+
+  <img src="images/background.png">
+</div>
+
+<div class="section">
+  <div class="col-lg-6">
+    <div>
+      <h2>Cluster Management</h2>
+      <div class="separator"></div>
+      <p>Create your cluster, node and shit, Rouki write me a good text for this part sqdfsdfgsdfsdf sdfsdfsd sdfsdfsdfsd sdfsdfsdf sdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdf sdfsdfsdf sdfsdfsdfsdfs sdfsdfsdf</p>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div>
+      <img src="images/cluster.jpg">
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="col-lg-6">
+    <div>
+      <img src="images/terminal.gif">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div>
+      <h2>Docker CLI</h2>
+      <div class="separator"></div>
+      <p>Docker CLI fully supported</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="col-lg-6">
+    <div>
+      <h2>Fully integrated with docker products</h2>
+      <div class="separator"></div>
+      <p>-Swarm</p>
+      <p>-Other shit</p>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div>
+      <img src="images/docker.png">
+      <div class="logo">
+        <img src="images/swarm.jpg">
+        <img src="images/compose.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="col-lg-6">
+    <div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">0.00$</h3>
+        </div>
+        <div class="panel-body">
+          <ul>
+            <li>Unlimited clusters</li>
+            <li>Unlimited nodes</li>
+            <li>Unlimited containers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div>
+      <h2>Free Beta</h2>
+      <div class="separator"></div>
+      <p>Link your provider credentials and your are ready to go (unlimited containers, nodes, clusters...)</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  2015 | ContainerHQ not yet Incorporated | Paris, France | Contact: containerHQ@gmail.com
+</div>
+
+<script>
+  var subscribtionform =  document.getElementById('subscribtionform');
+  subscribtionform.setAttribute('action', '//formspree.io/' + 'containerHQ' + '@' + 'gmail' + '.' + 'com');
+</script>
