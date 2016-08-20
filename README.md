@@ -1,7 +1,6 @@
 # arkis.io
 [![Circle CI](https://circleci.com/gh/ContainerHQ/arkis.io.svg?style=svg)](https://circleci.com/gh/ContainerHQ/arkis.io)
 
-**Arkis** website is available online [here](http://www.deckie.io/).
 
 ## Hack
 
